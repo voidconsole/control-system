@@ -1,0 +1,4951 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="3932" height="3471">
+    <style xmlns="http://www.w3.org/1999/xhtml">
+        
+ .M athJax_Hover_Frame {
+ border-radius: .25em;
+
+        -webkit-border-radius: .25em;
+ -moz-border-radius: .25em;
+
+        -khtml-border-radius: .25em;
+ box-shadow: 0px 0px 15px #83A;
+
+        -webkit-box-shadow: 0px 0px 15px #83A;
+ -moz-box-shadow: 0px 0px
+        15px #83A;
+ -khtml-box-shadow: 0px 0px 15px #83A;
+ border: 1px
+        solid #A6D ! important;
+ display: inline-block;
+ position:
+        absolute
+ }
+
+ .MathJax_Menu_Button .MathJax_Hover_Arrow {
+
+        position: absolute;
+ cursor: pointer;
+ display: inline-block;
+
+        border: 2px solid #AAA;
+ border-radius: 4px;
+
+        -webkit-border-radius: 4px;
+ -moz-border-radius: 4px;
+
+        -khtml-border-radius: 4px;
+ font-family: 'Courier New',
+        Courier;
+ font-size: 9px;
+ color: #F0F0F0
+ }
+
+
+        .MathJax_Menu_Button .MathJax_Hover_Arrow span {
+ display: block;
+
+        background-color: #AAA;
+ border: 1px solid;
+ border-radius:
+        3px;
+ line-height: 0;
+ padding: 4px
+ }
+
+
+        .MathJax_Hover_Arrow:hover {
+ color: white !important;
+ border:
+        2px solid #CCC !important
+ }
+
+ .MathJax_Hover_Arrow:hover
+        span {
+ background-color: #CCC !important
+ }
+
+
+
+        #MathJax_About {
+ position: fixed;
+ left: 50%;
+ width:
+        auto;
+ text-align: center;
+ border: 3px outset;
+ padding:
+        1em 2em;
+ background-color: #DDDDDD;
+ color: black;
+
+        cursor: default;
+ font-family: message-box;
+ font-size: 120%;
+
+        font-style: normal;
+ text-indent: 0;
+ text-transform: none;
+
+        line-height: normal;
+ letter-spacing: normal;
+ word-spacing:
+        normal;
+ word-wrap: normal;
+ white-space: nowrap;
+ float:
+        none;
+ z-index: 201;
+ border-radius: 15px;
+
+        -webkit-border-radius: 15px;
+ -moz-border-radius: 15px;
+
+        -khtml-border-radius: 15px;
+ box-shadow: 0px 10px 20px #808080;
+
+        -webkit-box-shadow: 0px 10px 20px #808080;
+ -moz-box-shadow: 0px
+        10px 20px #808080;
+ -khtml-box-shadow: 0px 10px 20px #808080;
+
+        filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2,
+        Color='gray', Positive='true')
+ }
+
+
+        #MathJax_About.MathJax_MousePost {
+ outline: none
+ }
+
+
+        .MathJax_Menu {
+ position: absolute;
+ background-color: white;
+
+        color: black;
+ width: auto;
+ padding: 2px;
+ border: 1px
+        solid #CCCCCC;
+ margin: 0;
+ cursor: default;
+ font: menu;
+
+        text-align: left;
+ text-indent: 0;
+ text-transform: none;
+
+        line-height: normal;
+ letter-spacing: normal;
+ word-spacing:
+        normal;
+ word-wrap: normal;
+ white-space: nowrap;
+ float:
+        none;
+ z-index: 201;
+ box-shadow: 0px 10px 20px #808080;
+
+        -webkit-box-shadow: 0px 10px 20px #808080;
+ -moz-box-shadow: 0px
+        10px 20px #808080;
+ -khtml-box-shadow: 0px 10px 20px #808080;
+
+        filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2,
+        Color='gray', Positive='true')
+ }
+
+
+        .MathJax_MenuItem {
+ padding: 2px 2em;
+ background: transparent
+
+        }
+
+ .MathJax_MenuArrow {
+ position: absolute;
+ right:
+        .5em;
+ padding-top: .25em;
+ color: #666666;
+ font-size:
+        .75em
+ }
+
+ .MathJax_MenuActive .MathJax_MenuArrow {
+
+        color: white
+ }
+
+ .MathJax_MenuArrow.RTL {
+ left: .5em;
+
+        right: auto
+ }
+
+ .MathJax_MenuCheck {
+ position:
+        absolute;
+ left: .7em
+ }
+
+ .MathJax_MenuCheck.RTL {
+
+        right: .7em;
+ left: auto
+ }
+
+ .MathJax_MenuRadioCheck {
+
+        position: absolute;
+ left: 1em
+ }
+
+
+        .MathJax_MenuRadioCheck.RTL {
+ right: 1em;
+ left: auto
+ }
+
+
+        .MathJax_MenuLabel {
+ padding: 2px 2em 4px 1.33em;
+ font-style:
+        italic
+ }
+
+ .MathJax_MenuRule {
+ border-top: 1px solid
+        #CCCCCC;
+ margin: 4px 1px 0px
+ }
+
+
+        .MathJax_MenuDisabled {
+ color: GrayText
+ }
+
+
+        .MathJax_MenuActive {
+ background-color: Highlight;
+ color:
+        HighlightText
+ }
+
+ .MathJax_MenuDisabled:focus,
+        .MathJax_MenuLabel:focus {
+ background-color: #E8E8E8
+ }
+
+
+        .MathJax_ContextMenu:focus {
+ outline: none
+ }
+
+
+        .MathJax_ContextMenu .MathJax_MenuItem:focus {
+ outline: none
+
+        }
+
+ #MathJax_AboutClose {
+ top: .2em;
+ right: .2em
+
+        }
+
+ .MathJax_Menu .MathJax_MenuClose {
+ top: -10px;
+
+        left: -10px
+ }
+
+ .MathJax_MenuClose {
+ position:
+        absolute;
+ cursor: pointer;
+ display: inline-block;
+
+        border: 2px solid #AAA;
+ border-radius: 18px;
+
+        -webkit-border-radius: 18px;
+ -moz-border-radius: 18px;
+
+        -khtml-border-radius: 18px;
+ font-family: 'Courier New',
+        Courier;
+ font-size: 24px;
+ color: #F0F0F0
+ }
+
+
+        .MathJax_MenuClose span {
+ display: block;
+ background-color:
+        #AAA;
+ border: 1.5px solid;
+ border-radius: 18px;
+
+        -webkit-border-radius: 18px;
+ -moz-border-radius: 18px;
+
+        -khtml-border-radius: 18px;
+ line-height: 0;
+ padding: 8px 0
+        6px
+ }
+
+ .MathJax_MenuClose:hover {
+ color: white
+        !important;
+ border: 2px solid #CCC !important
+ }
+
+
+        .MathJax_MenuClose:hover span {
+ background-color: #CCC !important
+
+        }
+
+ .MathJax_MenuClose:hover:focus {
+ outline: none
+ }
+
+
+        .MathJax_Preview .MJXf-math {
+ color: inherit !important
+ }
+
+
+        .MJX_Assistive_MathML {
+ position: absolute !important;
+ top:
+        0;
+ left: 0;
+ clip: rect(1px, 1px, 1px, 1px);
+ padding: 1px
+        0 0 0 !important;
+ border: 0 !important;
+ height: 1px
+        !important;
+ width: 1px !important;
+ overflow: hidden
+        !important;
+ display: block !important;
+ -webkit-touch-callout:
+        none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+
+        -moz-user-select: none;
+ -ms-user-select: none;
+ user-select:
+        none
+ }
+
+ .MJX_Assistive_MathML.MJX_Assistive_MathML_Block
+        {
+ width: 100% !important
+ }
+
+ #MathJax_Zoom {
+
+        position: absolute;
+ background-color: #F0F0F0;
+ overflow:
+        auto;
+ display: block;
+ z-index: 301;
+ padding: .5em;
+
+        border: 1px solid black;
+ margin: 0;
+ font-weight: normal;
+
+        font-style: normal;
+ text-align: left;
+ text-indent: 0;
+
+        text-transform: none;
+ line-height: normal;
+ letter-spacing:
+        normal;
+ word-spacing: normal;
+ word-wrap: normal;
+
+        white-space: nowrap;
+ float: none;
+ -webkit-box-sizing:
+        content-box;
+ -moz-box-sizing: content-box;
+ box-sizing:
+        content-box;
+ box-shadow: 5px 5px 15px #AAAAAA;
+
+        -webkit-box-shadow: 5px 5px 15px #AAAAAA;
+ -moz-box-shadow: 5px 5px
+        15px #AAAAAA;
+ -khtml-box-shadow: 5px 5px 15px #AAAAAA;
+
+        filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2,
+        Color='gray', Positive='true')
+ }
+
+
+        #MathJax_ZoomOverlay {
+ position: absolute;
+ left: 0;
+ top:
+        0;
+ z-index: 300;
+ display: inline-block;
+ width: 100%;
+
+        height: 100%;
+ border: 0;
+ padding: 0;
+ margin: 0;
+
+        background-color: white;
+ opacity: 0;
+ filter: alpha(opacity=0)
+
+        }
+
+ #MathJax_ZoomFrame {
+ position: relative;
+ display:
+        inline-block;
+ height: 0;
+ width: 0
+ }
+
+
+        #MathJax_ZoomEventTrap {
+ position: absolute;
+ left: 0;
+
+        top: 0;
+ z-index: 302;
+ display: inline-block;
+ border: 0;
+
+        padding: 0;
+ margin: 0;
+ background-color: white;
+ opacity:
+        0;
+ filter: alpha(opacity=0)
+ }
+
+ .MathJax_Preview {
+
+        color: #888
+ }
+
+ #MathJax_Message {
+ position: fixed;
+
+        left: 1em;
+ bottom: 1.5em;
+ background-color: #E6E6E6;
+
+        border: 1px solid #959595;
+ margin: 0px;
+ padding: 2px 8px;
+
+        z-index: 102;
+ color: black;
+ font-size: 80%;
+ width: auto;
+
+        white-space: nowrap
+ }
+
+ #MathJax_MSIE_Frame {
+
+        position: absolute;
+ top: 0;
+ left: 0;
+ width: 0px;
+
+        z-index: 101;
+ border: 0px;
+ margin: 0px;
+ padding: 0px
+
+        }
+
+ .MathJax_Error {
+ color: #CC0000;
+ font-style:
+        italic
+ }
+
+ .MJXp-script {
+ font-size: .8em
+ }
+
+
+        .MJXp-right {
+ -webkit-transform-origin: right;
+
+        -moz-transform-origin: right;
+ -ms-transform-origin: right;
+
+        -o-transform-origin: right;
+ transform-origin: right
+ }
+
+
+        .MJXp-bold {
+ font-weight: bold
+ }
+
+ .MJXp-italic {
+
+        font-style: italic
+ }
+
+ .MJXp-scr {
+ font-family:
+        MathJax_Script, 'Times New Roman', Times, STIXGeneral, serif
+
+        }
+
+ .MJXp-frak {
+ font-family: MathJax_Fraktur, 'Times
+        New Roman', Times, STIXGeneral, serif
+ }
+
+ .MJXp-sf {
+
+        font-family: MathJax_SansSerif, 'Times New Roman', Times,
+        STIXGeneral, serif
+ }
+
+ .MJXp-cal {
+ font-family:
+        MathJax_Caligraphic, 'Times New Roman', Times, STIXGeneral,
+        serif
+ }
+
+ .MJXp-mono {
+ font-family:
+        MathJax_Typewriter, 'Times New Roman', Times, STIXGeneral,
+        serif
+ }
+
+ .MJXp-largeop {
+ font-size: 150%
+ }
+
+
+        .MJXp-largeop.MJXp-int {
+ vertical-align: -.2em
+ }
+
+
+        .MJXp-math {
+ display: inline-block;
+ line-height: 1.2;
+
+        text-indent: 0;
+ font-family: 'Times New Roman', Times,
+        STIXGeneral, serif;
+ white-space: nowrap;
+ border-collapse:
+        collapse
+ }
+
+ .MJXp-display {
+ display: block;
+
+        text-align: center;
+ margin: 1em 0
+ }
+
+ .MJXp-math span
+        {
+ display: inline-block
+ }
+
+ .MJXp-box {
+ display:
+        block !important;
+ text-align: center
+ }
+
+
+        .MJXp-box:after {
+ content: " "
+ }
+
+ .MJXp-rule {
+
+        display: block !important;
+ margin-top: .1em
+ }
+
+
+        .MJXp-char {
+ display: block !important
+ }
+
+ .MJXp-mo {
+
+        margin: 0 .15em
+ }
+
+ .MJXp-mfrac {
+ margin: 0 .125em;
+
+        vertical-align: .25em
+ }
+
+ .MJXp-denom {
+ display:
+        inline-table !important;
+ width: 100%
+ }
+
+ .MJXp-denom&gt;
+        * {
+ display: table-row !important
+ }
+
+ .MJXp-surd {
+
+        vertical-align: top
+ }
+
+ .MJXp-surd&gt; * {
+ display:
+        block !important
+ }
+
+ .MJXp-script-box&gt; * {
+
+        display: table !important;
+ height: 50%
+ }
+
+
+        .MJXp-script-box&gt; *&gt; * {
+ display: table-cell !important;
+
+        vertical-align: top
+ }
+
+ .MJXp-script-box&gt; *:last-child&gt;
+        * {
+ vertical-align: bottom
+ }
+
+ .MJXp-script-box&gt; *&gt;
+        *&gt; * {
+ display: block !important
+ }
+
+
+        .MJXp-mphantom {
+ visibility: hidden
+ }
+
+
+        .MJXp-munderover, .MJXp-munder {
+ display: inline-table !important
+
+        }
+
+ .MJXp-over {
+ display: inline-block !important;
+
+        text-align: center
+ }
+
+ .MJXp-over&gt; * {
+ display:
+        block !important
+ }
+
+ .MJXp-munderover&gt; *, .MJXp-munder&gt;
+        * {
+ display: table-row !important
+ }
+
+ .MJXp-mtable {
+
+        vertical-align: .25em;
+ margin: 0 .125em
+ }
+
+
+        .MJXp-mtable&gt; * {
+ display: inline-table !important;
+
+        vertical-align: middle
+ }
+
+ .MJXp-mtr {
+ display:
+        table-row !important
+ }
+
+ .MJXp-mtd {
+ display:
+        table-cell !important;
+ text-align: center;
+ padding: .5em 0 0
+        .5em
+ }
+
+ .MJXp-mtr&gt; .MJXp-mtd:first-child {
+
+        padding-left: 0
+ }
+
+ .MJXp-mtr:first-child&gt; .MJXp-mtd {
+
+        padding-top: 0
+ }
+
+ .MJXp-mlabeledtr {
+ display:
+        table-row !important
+ }
+
+ .MJXp-mlabeledtr&gt;
+        .MJXp-mtd:first-child {
+ padding-left: 0
+ }
+
+
+        .MJXp-mlabeledtr:first-child&gt; .MJXp-mtd {
+ padding-top: 0
+ }
+
+
+        .MJXp-merror {
+ background-color: #FFFF88;
+ color: #CC0000;
+
+        border: 1px solid #CC0000;
+ padding: 1px 3px;
+ font-style:
+        normal;
+ font-size: 90%
+ }
+
+ .MJXp-scale0 {
+
+        -webkit-transform: scaleX(.0);
+ -moz-transform: scaleX(.0);
+
+        -ms-transform: scaleX(.0);
+ -o-transform: scaleX(.0);
+
+        transform: scaleX(.0)
+ }
+
+ .MJXp-scale1 {
+
+        -webkit-transform: scaleX(.1);
+ -moz-transform: scaleX(.1);
+
+        -ms-transform: scaleX(.1);
+ -o-transform: scaleX(.1);
+
+        transform: scaleX(.1)
+ }
+
+ .MJXp-scale2 {
+
+        -webkit-transform: scaleX(.2);
+ -moz-transform: scaleX(.2);
+
+        -ms-transform: scaleX(.2);
+ -o-transform: scaleX(.2);
+
+        transform: scaleX(.2)
+ }
+
+ .MJXp-scale3 {
+
+        -webkit-transform: scaleX(.3);
+ -moz-transform: scaleX(.3);
+
+        -ms-transform: scaleX(.3);
+ -o-transform: scaleX(.3);
+
+        transform: scaleX(.3)
+ }
+
+ .MJXp-scale4 {
+
+        -webkit-transform: scaleX(.4);
+ -moz-transform: scaleX(.4);
+
+        -ms-transform: scaleX(.4);
+ -o-transform: scaleX(.4);
+
+        transform: scaleX(.4)
+ }
+
+ .MJXp-scale5 {
+
+        -webkit-transform: scaleX(.5);
+ -moz-transform: scaleX(.5);
+
+        -ms-transform: scaleX(.5);
+ -o-transform: scaleX(.5);
+
+        transform: scaleX(.5)
+ }
+
+ .MJXp-scale6 {
+
+        -webkit-transform: scaleX(.6);
+ -moz-transform: scaleX(.6);
+
+        -ms-transform: scaleX(.6);
+ -o-transform: scaleX(.6);
+
+        transform: scaleX(.6)
+ }
+
+ .MJXp-scale7 {
+
+        -webkit-transform: scaleX(.7);
+ -moz-transform: scaleX(.7);
+
+        -ms-transform: scaleX(.7);
+ -o-transform: scaleX(.7);
+
+        transform: scaleX(.7)
+ }
+
+ .MJXp-scale8 {
+
+        -webkit-transform: scaleX(.8);
+ -moz-transform: scaleX(.8);
+
+        -ms-transform: scaleX(.8);
+ -o-transform: scaleX(.8);
+
+        transform: scaleX(.8)
+ }
+
+ .MJXp-scale9 {
+
+        -webkit-transform: scaleX(.9);
+ -moz-transform: scaleX(.9);
+
+        -ms-transform: scaleX(.9);
+ -o-transform: scaleX(.9);
+
+        transform: scaleX(.9)
+ }
+
+ .MathJax_PHTML .noError {
+
+        vertical-align: ;
+ font-size: 90%;
+ text-align: left;
+
+        color: black;
+ padding: 1px 3px;
+ border: 1px solid
+ }
+
+
+        .mjx-chtml {
+ display: inline-block;
+ line-height: 0;
+
+        text-indent: 0;
+ text-align: left;
+ text-transform: none;
+
+        font-style: normal;
+ font-weight: normal;
+ font-size: 100%;
+
+        font-size-adjust: none;
+ letter-spacing: normal;
+ word-wrap:
+        normal;
+ word-spacing: normal;
+ white-space: nowrap;
+
+        float: none;
+ direction: ltr;
+ max-width: none;
+
+        max-height: none;
+ min-width: 0;
+ min-height: 0;
+ border:
+        0;
+ margin: 0;
+ padding: 1px 0
+ }
+
+ .MJXc-display {
+
+        display: block;
+ text-align: center;
+ margin: 1em 0;
+
+        padding: 0
+ }
+
+ .mjx-chtml[tabindex]:focus, body :focus
+        .mjx-chtml[tabindex] {
+ display: inline-table
+ }
+
+
+        .mjx-full-width {
+ text-align: center;
+ display: table-cell
+        !important;
+ width: 10000em
+ }
+
+ .mjx-math {
+
+        display: inline-block;
+ border-collapse: separate;
+
+        border-spacing: 0
+ }
+
+ .mjx-math * {
+ display:
+        inline-block;
+ -webkit-box-sizing: content-box !important;
+
+        -moz-box-sizing: content-box !important;
+ box-sizing: content-box
+        !important;
+ text-align: left
+ }
+
+ .mjx-numerator {
+
+        display: block;
+ text-align: center
+ }
+
+
+        .mjx-denominator {
+ display: block;
+ text-align: center
+ }
+
+
+        .MJXc-stacked {
+ height: 0;
+ position: relative
+ }
+
+
+        .MJXc-stacked&gt; * {
+ position: absolute
+ }
+
+
+        .MJXc-bevelled&gt; * {
+ display: inline-block
+ }
+
+
+        .mjx-stack {
+ display: inline-block
+ }
+
+ .mjx-op {
+
+        display: block
+ }
+
+ .mjx-under {
+ display: table-cell
+
+        }
+
+ .mjx-over {
+ display: block
+ }
+
+ .mjx-over&gt;
+        * {
+ padding-left: 0px !important;
+ padding-right: 0px
+        !important
+ }
+
+ .mjx-under&gt; * {
+ padding-left: 0px
+        !important;
+ padding-right: 0px !important
+ }
+
+
+        .mjx-stack&gt; .mjx-sup {
+ display: block
+ }
+
+
+        .mjx-stack&gt; .mjx-sub {
+ display: block
+ }
+
+
+        .mjx-prestack&gt; .mjx-presup {
+ display: block
+ }
+
+
+        .mjx-prestack&gt; .mjx-presub {
+ display: block
+ }
+
+
+        .mjx-delim-h&gt; .mjx-char {
+ display: inline-block
+ }
+
+
+        .mjx-surd {
+ vertical-align: top
+ }
+
+ .mjx-mphantom * {
+
+        visibility: hidden
+ }
+
+ .mjx-merror {
+
+        background-color: #FFFF88;
+ color: #CC0000;
+ border: 1px solid
+        #CC0000;
+ padding: 2px 3px;
+ font-style: normal;
+
+        font-size: 90%
+ }
+
+ .mjx-annotation-xml {
+ line-height:
+        normal
+ }
+
+ .mjx-menclose&gt; svg {
+ fill: none;
+
+        stroke: currentColor
+ }
+
+ .mjx-mtr {
+ display:
+        table-row
+ }
+
+ .mjx-mlabeledtr {
+ display: table-row
+
+        }
+
+ .mjx-mtd {
+ display: table-cell;
+ text-align:
+        center
+ }
+
+ .mjx-label {
+ display: table-row
+ }
+
+
+        .mjx-box {
+ display: inline-block
+ }
+
+ .mjx-block {
+
+        display: block
+ }
+
+ .mjx-span {
+ display: inline
+ }
+
+
+        .mjx-char {
+ display: block;
+&lt;!-- white-space: pre--&gt;&lt;!--
+        Remove this because it keeps white spaces in exported SVGs, which makes
+        the texts very long --&gt;
+ }
+
+ .mjx-itable {
+ display:
+        inline-table;
+ width: auto
+ }
+
+ .mjx-row {
+
+        display: table-row
+ }
+
+ .mjx-cell {
+ display:
+        table-cell
+ }
+
+ .mjx-table {
+ display: table;
+
+        width: 100%
+ }
+
+ .mjx-line {
+ display: block;
+
+        height: 0
+ }
+
+ .mjx-strut {
+ width: 0;
+
+        padding-top: 1em
+ }
+
+ .mjx-vsize {
+ width: 0
+ }
+
+
+        .MJXc-space1 {
+ margin-left: .167em
+ }
+
+ .MJXc-space2 {
+
+        margin-left: .222em
+ }
+
+ .MJXc-space3 {
+ margin-left:
+        .278em
+ }
+
+ .mjx-chartest {
+ display: block;
+
+        visibility: hidden;
+ position: absolute;
+ top: 0;
+
+        line-height: normal;
+ font-size: 500%
+ }
+
+
+        .mjx-chartest .mjx-char {
+ display: inline
+ }
+
+
+        .mjx-chartest .mjx-box {
+ padding-top: 1000px
+ }
+
+
+        .MJXc-processing {
+ visibility: hidden;
+ position: fixed;
+
+        width: 0;
+ height: 0;
+ overflow: hidden
+ }
+
+
+        .MJXc-processed {
+ display: none
+ }
+
+ .mjx-test {
+
+        font-style: normal;
+ font-weight: normal;
+ font-size: 100%;
+
+        font-size-adjust: none;
+ text-indent: 0;
+ text-transform: none;
+
+        letter-spacing: normal;
+ word-spacing: normal;
+ overflow:
+        hidden;
+ height: 1px
+ }
+
+ .mjx-test.mjx-test-display {
+
+        display: table !important
+ }
+
+ .mjx-test.mjx-test-inline {
+
+        display: inline !important;
+ margin-right: -1px
+ }
+
+
+        .mjx-test.mjx-test-default {
+ display: block !important;
+
+        clear: both
+ }
+
+ .mjx-ex-box {
+ display: inline-block
+        !important;
+ position: absolute;
+ overflow: hidden;
+
+        min-height: 0;
+ max-height: none;
+ padding: 0;
+ border: 0;
+
+        margin: 0;
+ width: 1px;
+ height: 60ex
+ }
+
+
+        .mjx-test-inline .mjx-left-box {
+ display: inline-block;
+
+        width: 0;
+ float: left
+ }
+
+ .mjx-test-inline
+        .mjx-right-box {
+ display: inline-block;
+ width: 0;
+ float:
+        right
+ }
+
+ .mjx-test-display .mjx-right-box {
+ display:
+        table-cell !important;
+ width: 10000em !important;
+ min-width:
+        0;
+ max-width: none;
+ padding: 0;
+ border: 0;
+ margin:
+        0
+ }
+
+ #MathJax_CHTML_Tooltip {
+ background-color:
+        InfoBackground;
+ color: InfoText;
+ border: 1px solid black;
+
+        box-shadow: 2px 2px 5px #AAAAAA;
+ -webkit-box-shadow: 2px 2px 5px
+        #AAAAAA;
+ -moz-box-shadow: 2px 2px 5px #AAAAAA;
+
+        -khtml-box-shadow: 2px 2px 5px #AAAAAA;
+ padding: 3px 4px;
+
+        z-index: 401;
+ position: absolute;
+ left: 0;
+ top: 0;
+
+        width: auto;
+ height: auto;
+ display: none
+ }
+
+
+        .mjx-chtml .mjx-noError {
+ line-height: 1.2;
+ vertical-align: ;
+
+        font-size: 90%;
+ text-align: left;
+ color: black;
+ padding:
+        1px 3px;
+ border: 1px solid
+ }
+
+ .MJXc-TeX-unknown-R {
+
+        font-family: STIXGeneral, 'Cambria Math', 'Arial Unicode MS',
+        serif;
+ font-style: normal;
+ font-weight: normal
+ }
+
+
+        .MJXc-TeX-unknown-I {
+ font-family: STIXGeneral, 'Cambria Math',
+        'Arial Unicode MS', serif;
+ font-style: italic;
+
+        font-weight: normal
+ }
+
+ .MJXc-TeX-unknown-B {
+
+        font-family: STIXGeneral, 'Cambria Math', 'Arial Unicode MS',
+        serif;
+ font-style: normal;
+ font-weight: bold
+ }
+
+
+        .MJXc-TeX-unknown-BI {
+ font-family: STIXGeneral, 'Cambria Math',
+        'Arial Unicode MS', serif;
+ font-style: italic;
+
+        font-weight: bold
+ }
+
+ .MJXc-TeX-ams-R {
+ font-family:
+        MJXc-TeX-ams-R, MJXc-TeX-ams-Rw
+ }
+
+ .MJXc-TeX-cal-B {
+
+        font-family: MJXc-TeX-cal-B, MJXc-TeX-cal-Bx, MJXc-TeX-cal-Bw
+ }
+
+
+        .MJXc-TeX-frak-R {
+ font-family: MJXc-TeX-frak-R, MJXc-TeX-frak-Rw
+
+        }
+
+ .MJXc-TeX-frak-B {
+ font-family: MJXc-TeX-frak-B,
+        MJXc-TeX-frak-Bx, MJXc-TeX-frak-Bw
+ }
+
+ .MJXc-TeX-math-BI {
+
+        font-family: MJXc-TeX-math-BI, MJXc-TeX-math-BIx, MJXc-TeX-math-BIw
+
+        }
+
+ .MJXc-TeX-sans-R {
+ font-family: MJXc-TeX-sans-R,
+        MJXc-TeX-sans-Rw
+ }
+
+ .MJXc-TeX-sans-B {
+ font-family:
+        MJXc-TeX-sans-B, MJXc-TeX-sans-Bx, MJXc-TeX-sans-Bw
+ }
+
+
+        .MJXc-TeX-sans-I {
+ font-family: MJXc-TeX-sans-I, MJXc-TeX-sans-Ix,
+        MJXc-TeX-sans-Iw
+ }
+
+ .MJXc-TeX-script-R {
+
+        font-family: MJXc-TeX-script-R, MJXc-TeX-script-Rw
+ }
+
+
+        .MJXc-TeX-type-R {
+ font-family: MJXc-TeX-type-R, MJXc-TeX-type-Rw
+
+        }
+
+ .MJXc-TeX-cal-R {
+ font-family: MJXc-TeX-cal-R,
+        MJXc-TeX-cal-Rw
+ }
+
+ .MJXc-TeX-main-B {
+ font-family:
+        MJXc-TeX-main-B, MJXc-TeX-main-Bx, MJXc-TeX-main-Bw
+ }
+
+
+        .MJXc-TeX-main-I {
+ font-family: MJXc-TeX-main-I, MJXc-TeX-main-Ix,
+        MJXc-TeX-main-Iw
+ }
+
+ .MJXc-TeX-main-R {
+ font-family:
+        MJXc-TeX-main-R, MJXc-TeX-main-Rw
+ }
+
+ .MJXc-TeX-math-I {
+
+        font-family: MJXc-TeX-math-I, MJXc-TeX-math-Ix, MJXc-TeX-math-Iw
+ }
+
+
+        .MJXc-TeX-size1-R {
+ font-family: MJXc-TeX-size1-R,
+        MJXc-TeX-size1-Rw
+ }
+
+ .MJXc-TeX-size2-R {
+
+        font-family: MJXc-TeX-size2-R, MJXc-TeX-size2-Rw
+ }
+
+
+        .MJXc-TeX-size3-R {
+ font-family: MJXc-TeX-size3-R,
+        MJXc-TeX-size3-Rw
+ }
+
+ .MJXc-TeX-size4-R {
+
+        font-family: MJXc-TeX-size4-R, MJXc-TeX-size4-Rw
+ }
+
+
+        .MJXc-TeX-vec-R {
+ font-family: MJXc-TeX-vec-R, MJXc-TeX-vec-Rw
+
+        }
+
+ .MJXc-TeX-vec-B {
+ font-family: MJXc-TeX-vec-B,
+        MJXc-TeX-vec-Bx, MJXc-TeX-vec-Bw
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-ams-R;
+ src: local('MathJax_AMS'),
+        local('MathJax_AMS-Regular')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-ams-Rw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_AMS-Regular.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_AMS-Regular.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-cal-B;
+ src: local('MathJax_Caligraphic
+        Bold'), local('MathJax_Caligraphic-Bold')
+ }
+
+
+        @font-face {
+ font-family: MJXc-TeX-cal-Bx;
+ src: local('MathJax_Caligraphic');
+
+        font-weight: bold
+ }
+
+ @font-face {
+ font-family:
+        MJXc-TeX-cal-Bw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_Caligraphic-Bold.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Bold.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Bold.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-frak-R;
+ src: local('MathJax_Fraktur'),
+        local('MathJax_Fraktur-Regular')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-frak-Rw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_Fraktur-Regular.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_Fraktur-Regular.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_Fraktur-Regular.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-frak-B;
+ src: local('MathJax_Fraktur Bold'),
+        local('MathJax_Fraktur-Bold')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-frak-Bx;
+ src: local('MathJax_Fraktur');
+
+        font-weight: bold
+ }
+
+ @font-face {
+ font-family:
+        MJXc-TeX-frak-Bw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_Fraktur-Bold.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_Fraktur-Bold.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_Fraktur-Bold.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-math-BI;
+ src: local('MathJax_Math
+        BoldItalic'), local('MathJax_Math-BoldItalic')
+ }
+
+
+        @font-face {
+ font-family: MJXc-TeX-math-BIx;
+ src: local('MathJax_Math');
+
+        font-weight: bold;
+ font-style: italic
+ }
+
+ @font-face
+        {
+ font-family: MJXc-TeX-math-BIw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_Math-BoldItalic.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_Math-BoldItalic.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_Math-BoldItalic.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-sans-R;
+ src: local('MathJax_SansSerif'),
+        local('MathJax_SansSerif-Regular')
+ }
+
+ @font-face
+        {
+ font-family: MJXc-TeX-sans-Rw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_SansSerif-Regular.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_SansSerif-Regular.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Regular.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-sans-B;
+ src: local('MathJax_SansSerif
+        Bold'), local('MathJax_SansSerif-Bold')
+ }
+
+
+        @font-face {
+ font-family: MJXc-TeX-sans-Bx;
+ src: local('MathJax_SansSerif');
+
+        font-weight: bold
+ }
+
+ @font-face {
+ font-family:
+        MJXc-TeX-sans-Bw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_SansSerif-Bold.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_SansSerif-Bold.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Bold.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-sans-I;
+ src: local('MathJax_SansSerif
+        Italic'), local('MathJax_SansSerif-Italic')
+ }
+
+
+        @font-face {
+ font-family: MJXc-TeX-sans-Ix;
+ src: local('MathJax_SansSerif');
+
+        font-style: italic
+ }
+
+ @font-face {
+ font-family:
+        MJXc-TeX-sans-Iw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_SansSerif-Italic.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_SansSerif-Italic.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Italic.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-script-R;
+ src: local('MathJax_Script'),
+        local('MathJax_Script-Regular')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-script-Rw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_Script-Regular.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_Script-Regular.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_Script-Regular.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-type-R;
+ src: local('MathJax_Typewriter'),
+        local('MathJax_Typewriter-Regular')
+ }
+
+ @font-face
+        {
+ font-family: MJXc-TeX-type-Rw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_Typewriter-Regular.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_Typewriter-Regular.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_Typewriter-Regular.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-cal-R;
+ src: local('MathJax_Caligraphic'),
+        local('MathJax_Caligraphic-Regular')
+ }
+
+
+        @font-face {
+ font-family: MJXc-TeX-cal-Rw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_Caligraphic-Regular.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Regular.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Regular.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-main-B;
+ src: local('MathJax_Main Bold'),
+        local('MathJax_Main-Bold')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-main-Bx;
+ src: local('MathJax_Main');
+
+        font-weight: bold
+ }
+
+ @font-face {
+ font-family:
+        MJXc-TeX-main-Bw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_Main-Bold.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-main-I;
+ src: local('MathJax_Main Italic'),
+        local('MathJax_Main-Italic')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-main-Ix;
+ src: local('MathJax_Main');
+
+        font-style: italic
+ }
+
+ @font-face {
+ font-family:
+        MJXc-TeX-main-Iw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_Main-Italic.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_Main-Italic.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_Main-Italic.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-main-R;
+ src: local('MathJax_Main'),
+        local('MathJax_Main-Regular')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-main-Rw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_Main-Regular.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-math-I;
+ src: local('MathJax_Math Italic'),
+        local('MathJax_Math-Italic')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-math-Ix;
+ src: local('MathJax_Math');
+
+        font-style: italic
+ }
+
+ @font-face {
+ font-family:
+        MJXc-TeX-math-Iw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_Math-Italic.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_Math-Italic.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-size1-R;
+ src: local('MathJax_Size1'),
+        local('MathJax_Size1-Regular')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-size1-Rw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_Size1-Regular.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_Size1-Regular.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-size2-R;
+ src: local('MathJax_Size2'),
+        local('MathJax_Size2-Regular')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-size2-Rw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_Size2-Regular.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_Size2-Regular.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-size3-R;
+ src: local('MathJax_Size3'),
+        local('MathJax_Size3-Regular')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-size3-Rw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_Size3-Regular.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_Size3-Regular.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_Size3-Regular.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-size4-R;
+ src: local('MathJax_Size4'),
+        local('MathJax_Size4-Regular')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-size4-Rw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_Size4-Regular.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_Size4-Regular.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-vec-R;
+ src: local('MathJax_Vector'),
+        local('MathJax_Vector-Regular')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-vec-Rw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_Vector-Regular.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_Vector-Regular.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_Vector-Regular.otf')
+        format('opentype')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-vec-B;
+ src: local('MathJax_Vector Bold'),
+        local('MathJax_Vector-Bold')
+ }
+
+ @font-face {
+
+        font-family: MJXc-TeX-vec-Bx;
+ src: local('MathJax_Vector');
+
+        font-weight: bold
+ }
+
+ @font-face {
+ font-family:
+        MJXc-TeX-vec-Bw;
+ src /*1*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/eot/MathJax_Vector-Bold.eot');
+
+        src /*2*/: url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/woff/MathJax_Vector-Bold.woff')
+        format('woff'), url('https://www.digikey.com/schemeitcdn/static/js/library/MathJax-2.7.5/fonts/HTML-CSS/TeX/otf/MathJax_Vector-Bold.otf')
+        format('opentype')
+ }
+
+    </style>
+    <defs/>
+    <g transform=" scale(1) translate(-812,-230)">
+        <rect x="3600" y="2260" width="260" height="180" fill="#ffffff" stroke="black" stroke-width="2" stroke-dasharray="NaN" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3697.5" y="2357">
+                BATTERY
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3600" y="2380">
+                (+)plus
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3805" y="2377">
+                (-)minus
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="3870" y="2363">
+                A19
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="3859" y="2351">
+                19
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="3610" y="2363">
+                A20
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="3599" y="2351">
+                20
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <rect x="3573" y="2260" width="17" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="3581.5" y="2271.5">
+                U1
+            </text>
+        </g>
+        <rect x="3431" y="2130" width="10" height="10" fill="#ffffff" stroke="black" stroke-width="2" stroke-dasharray="NaN" pointer-events="none"/>
+        <rect x="2801" y="1760" width="680" height="420" fill="#ffffff" stroke="black" stroke-width="2" stroke-dasharray="NaN" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3106" y="1977">
+                LM2596
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3106" y="1991">
+                (MAKES 5V)
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3146" y="1780">
+                IN+
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3126" y="2157">
+                IN-
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2826" y="1977">
+                OUT+
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3436" y="1977">
+                OUT-
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="3161" y="1763">
+                A109
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="3150" y="1751">
+                109
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="3161" y="2183">
+                A110
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="3150" y="2171">
+                110
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2811" y="1973">
+                A112
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2800" y="1961">
+                112
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="3491" y="1973">
+                A111
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="3480" y="1961">
+                111
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <rect x="2783" y="1750" width="17" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="2791.5" y="1761.5">
+                U2
+            </text>
+        </g>
+        <rect x="2090" y="1610" width="420" height="310" fill="#ffffff" stroke="black" stroke-width="2" stroke-dasharray="NaN" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2275" y="1757">
+                NUCLEO 
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2275" y="1771">
+                COMPUTER 
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2145" y="1627">
+                5V POWER
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2230" y="1627">
+                GND
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2275" y="1630">
+                3.3V Output    
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2365" y="1627">
+                I2C-SDA 
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2365" y="1641">
+                (PB9)
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2435" y="1627">
+                I2C-SCL 
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2435" y="1641">
+                (PB8) 
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2415" y="1664">
+                SPI-SCK (PA5)   │
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2408" y="1704">
+                SPI-MISO (PA6)
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2408" y="1817">
+                SPI-CS (PD14)  
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2409.5" y="1857">
+                 GPS-TX (PA9) 
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2185" y="1887">
+                Servo-EN
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2185" y="1901">
+                 (PC3) 
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2120" y="1887">
+                Motor1
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2120" y="1901">
+                 (PE2)
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2340" y="1880">
+                Servo-TX 
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2340" y="1894">
+                (PA0)
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2260" y="1887">
+                Servo-RX 
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2260" y="1901">
+                (PA1)
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2415" y="1887">
+                GPS-RX 
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2415" y="1901">
+                (PA10)
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2115" y="1860">
+                Motor2 (PE3)   
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2115" y="1807">
+                Motor3 (PE4)
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2105" y="1747">
+                Motor4 (PE5) 
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2110" y="1697">
+                 Radio-TX (PD5)
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2115" y="1657">
+                Radio-RX (PD6)
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2408" y="1770">
+                SPI-MOSI (PA7)  
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2150" y="1923">
+                A153
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2139" y="1911">
+                153
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2220" y="1923">
+                A154
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2209" y="1911">
+                154
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2290" y="1923">
+                A155
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2279" y="1911">
+                155
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2370" y="1923">
+                A156
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2359" y="1911">
+                156
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2450" y="1923">
+                A157
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2439" y="1911">
+                157
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2520" y="1853">
+                A158
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2509" y="1841">
+                158
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2520" y="1813">
+                A159
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2509" y="1801">
+                159
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2520" y="1763">
+                A160
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2509" y="1751">
+                160
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2520" y="1653">
+                A162
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2509" y="1641">
+                162
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2450" y="1613">
+                A163
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2439" y="1601">
+                163
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2390" y="1613">
+                A164
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2379" y="1601">
+                164
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2320" y="1613">
+                A165
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2309" y="1601">
+                165
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2250" y="1613">
+                A166
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2239" y="1601">
+                166
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2170" y="1613">
+                A167
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2159" y="1601">
+                167
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2100" y="1653">
+                A168
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2089" y="1641">
+                168
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2100" y="1693">
+                A170
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2089" y="1681">
+                170
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2100" y="1753">
+                A171
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2089" y="1741">
+                171
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2100" y="1813">
+                A172
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2089" y="1801">
+                172
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2100" y="1863">
+                A173
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2089" y="1851">
+                173
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2520" y="1703">
+                A161
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2509" y="1691">
+                161
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <rect x="2063" y="1600" width="17" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="2071.5" y="1611.5">
+                U4
+            </text>
+        </g>
+        <rect x="1170" y="1460" width="380" height="280" fill="#ffffff" stroke="black" stroke-width="2" stroke-dasharray="NaN" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1320" y="1597">
+                TMP102   
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1320" y="1611">
+                (TEMP)
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1355" y="1477">
+                VCC
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1178" y="1637">
+                SCL 
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1515" y="1627">
+                SDA   
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1355" y="1727">
+                GND
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="1380" y="1463">
+                A174
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="1369" y="1451">
+                174
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="1380" y="1743">
+                A175
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="1369" y="1731">
+                175
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="1560" y="1623">
+                A176
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="1549" y="1611">
+                176
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="1180" y="1623">
+                A177
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="1169" y="1611">
+                177
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <rect x="1143" y="1450" width="17" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="1151.5" y="1461.5">
+                U5
+            </text>
+        </g>
+        <rect x="2340" y="3230" width="380" height="280" fill="#ffffff" stroke="black" stroke-width="2" stroke-dasharray="NaN" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2490" y="3367">
+                SERVO 4
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2490" y="3381">
+                (Fin Control)  
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2525" y="3247">
+                VCC
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2348" y="3407">
+                A
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2685" y="3397">
+                B
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2525" y="3497">
+                GND
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2550" y="3233">
+                A174
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2539" y="3221">
+                174
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2550" y="3513">
+                A175
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2539" y="3501">
+                175
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2730" y="3393">
+                A176
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2719" y="3381">
+                176
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2350" y="3393">
+                A177
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2339" y="3381">
+                177
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <rect x="2313" y="3220" width="17" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="2321.5" y="3231.5">
+                U6
+            </text>
+        </g>
+        <rect x="3270" y="3250" width="380" height="280" fill="#ffffff" stroke="black" stroke-width="2" stroke-dasharray="NaN" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3420" y="3387">
+                SERVO 1  
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3420" y="3401">
+                (Fin Control)  
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3455" y="3267">
+                VCC
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3278" y="3427">
+                A
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3615" y="3417">
+                B
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3455" y="3517">
+                GND
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="3480" y="3253">
+                A174
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="3469" y="3241">
+                174
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="3480" y="3533">
+                A175
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="3469" y="3521">
+                175
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="3660" y="3413">
+                A176
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="3649" y="3401">
+                176
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="3280" y="3413">
+                A177
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="3269" y="3401">
+                177
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <rect x="3243" y="3240" width="17" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="3251.5" y="3251.5">
+                U7
+            </text>
+        </g>
+        <rect x="1890" y="3230" width="380" height="280" fill="#ffffff" stroke="black" stroke-width="2" stroke-dasharray="NaN" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2040" y="3367">
+                SERVO 3
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2040" y="3381">
+                (Fin Control)  
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2075" y="3247">
+                VCC
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1898" y="3407">
+                A
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2235" y="3397">
+                B
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2075" y="3497">
+                GND
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2100" y="3233">
+                A174
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2089" y="3221">
+                174
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2100" y="3513">
+                A175
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2089" y="3501">
+                175
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2280" y="3393">
+                A176
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2269" y="3381">
+                176
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="1900" y="3393">
+                A177
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="1889" y="3381">
+                177
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <rect x="1856" y="3220" width="24" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="1868" y="3231.5">
+                U10
+            </text>
+        </g>
+        <rect x="2800" y="3250" width="380" height="280" fill="#ffffff" stroke="black" stroke-width="2" stroke-dasharray="NaN" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2950" y="3387">
+                SERVO 2
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2950" y="3401">
+                (Fin Control)  
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2985" y="3267">
+                VCC
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2808" y="3427">
+                A
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3145" y="3417">
+                B
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2985" y="3517">
+                GND
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="3010" y="3253">
+                A174
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2999" y="3241">
+                174
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="3010" y="3533">
+                A175
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2999" y="3521">
+                175
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="3190" y="3413">
+                A176
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="3179" y="3401">
+                176
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2810" y="3413">
+                A177
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2799" y="3401">
+                177
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <rect x="2766" y="3240" width="24" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="2778" y="3251.5">
+                U12
+            </text>
+        </g>
+        <rect x="1210" y="2250" width="380" height="280" fill="#ffffff" stroke="black" stroke-width="2" stroke-dasharray="NaN" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1360" y="2387">
+                BMI088 
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1360" y="2401">
+                MOTION SENSOR  
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1395" y="2267">
+                VCC
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1218" y="2427">
+                SCL 
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1555" y="2417">
+                SDA   
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1395" y="2517">
+                GND
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="1420" y="2253">
+                A174
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="1409" y="2241">
+                174
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="1420" y="2533">
+                A175
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="1409" y="2521">
+                175
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="1600" y="2413">
+                A176
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="1589" y="2401">
+                176
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="1220" y="2413">
+                A177
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="1209" y="2401">
+                177
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <rect x="1176" y="2240" width="24" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="1188" y="2251.5">
+                U13
+            </text>
+        </g>
+        <rect x="1210" y="2650" width="380" height="280" fill="#ffffff" stroke="black" stroke-width="2" stroke-dasharray="NaN" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1360" y="2787">
+                LIS3MDL 
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1360" y="2801">
+                COMPASS
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1395" y="2667">
+                VCC
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1218" y="2827">
+                SCL 
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1555" y="2817">
+                SDA   
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1395" y="2917">
+                GND
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="1420" y="2653">
+                A174
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="1409" y="2641">
+                174
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="1420" y="2933">
+                A175
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="1409" y="2921">
+                175
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="1600" y="2813">
+                A176
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="1589" y="2801">
+                176
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="1220" y="2813">
+                A177
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="1209" y="2801">
+                177
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <rect x="1176" y="2640" width="24" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="1188" y="2651.5">
+                U16
+            </text>
+        </g>
+        <rect x="1180" y="1080" width="380" height="280" fill="#ffffff" stroke="black" stroke-width="2" stroke-dasharray="NaN" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1330" y="1217">
+                MS5611   
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1330" y="1231">
+                (ALTITIUDE)
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1365" y="1097">
+                VCC
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1188" y="1257">
+                SCL 
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1525" y="1247">
+                SDA   
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1365" y="1347">
+                GND
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="1390" y="1083">
+                A174
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="1379" y="1071">
+                174
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="1390" y="1363">
+                A175
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="1379" y="1351">
+                175
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="1570" y="1243">
+                A176
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="1559" y="1231">
+                176
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="1190" y="1243">
+                A177
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="1179" y="1231">
+                177
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <rect x="1146" y="1070" width="24" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="1158" y="1081.5">
+                U15
+            </text>
+        </g>
+        <rect x="1200" y="1850" width="380" height="280" fill="#ffffff" stroke="black" stroke-width="2" stroke-dasharray="NaN" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1350" y="1987">
+                BMP388 
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1350" y="2001">
+                PRESSURE
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1385" y="1867">
+                VCC
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1208" y="2027">
+                SCL 
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1545" y="2017">
+                SDA   
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1385" y="2117">
+                GND
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="1410" y="1853">
+                A174
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="1399" y="1841">
+                174
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="1410" y="2133">
+                A175
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="1399" y="2121">
+                175
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="1590" y="2013">
+                A176
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="1579" y="2001">
+                176
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="1210" y="2013">
+                A177
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="1199" y="2001">
+                177
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <rect x="1166" y="1840" width="24" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="1178" y="1851.5">
+                U17
+            </text>
+        </g>
+        <rect x="4480" y="2070" width="240" height="210" fill="#ffffff" stroke="black" stroke-width="2" stroke-dasharray="NaN" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="4565" y="2167">
+                MOTOR1
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="4565" y="2181">
+                PARACHUTE
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="4595" y="2097">
+                M+
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="4595" y="2267">
+                M-
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="4610" y="2283">
+                A185
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="4599" y="2271">
+                185
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="4610" y="2073">
+                A186
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="4599" y="2061">
+                186
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <rect x="4463" y="2060" width="17" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="4471.5" y="2071.5">
+                U8
+            </text>
+        </g>
+        <rect x="840" y="480" width="200" height="90" fill="#ffffff" stroke="black" stroke-width="2" stroke-dasharray="NaN" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="905" y="532">
+                 433MHz
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="905" y="546">
+                 ANTENNA  
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="925" y="497">
+                M+
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="940" y="483">
+                A186
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="929" y="471">
+                186
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <rect x="816" y="470" width="24" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="828" y="481.5">
+                U18
+            </text>
+        </g>
+        <rect x="2950" y="1090" width="380" height="280" fill="#ffffff" stroke="black" stroke-width="2" stroke-dasharray="NaN" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3092" y="1227">
+                MAX485  
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3092" y="1241">
+                (SERVO ADAPTAER)
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3035" y="1117">
+                VCC
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2965" y="1264">
+                RO 
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3280" y="1257">
+                DI
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3035" y="1347">
+                GND
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3145" y="1347">
+                A
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3185" y="1117">
+                DE/RE    
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3235" y="1347">
+                B
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="3060" y="1093">
+                A174
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="3049" y="1081">
+                174
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="3060" y="1373">
+                A175
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="3049" y="1361">
+                175
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="3340" y="1253">
+                A176
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="3329" y="1241">
+                176
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2960" y="1253">
+                A177
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2949" y="1241">
+                177
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="3160" y="1373">
+                A178
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="3149" y="1361">
+                178
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="3210" y="1093">
+                A179
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="3199" y="1081">
+                179
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="3250" y="1373">
+                A180
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="3239" y="1361">
+                180
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <rect x="2916" y="1080" width="24" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="2928" y="1091.5">
+                U19
+            </text>
+        </g>
+        <rect x="1200" y="660" width="380" height="280" fill="#ffffff" stroke="black" stroke-width="2" stroke-dasharray="NaN" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1350" y="797">
+                SPI FLASH
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1350" y="811">
+                (DATA STORAGE)
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1285" y="687">
+                VCC
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1215" y="834">
+                SCK
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1530" y="827">
+                MISO
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1285" y="917">
+                GND
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1445" y="917">
+                CS
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1435" y="687">
+                MOSI  
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="1310" y="663">
+                A174
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="1299" y="651">
+                174
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="1310" y="943">
+                A175
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="1299" y="931">
+                175
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="1590" y="823">
+                A176
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="1579" y="811">
+                176
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="1210" y="823">
+                A177
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="1199" y="811">
+                177
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="1460" y="943">
+                A178
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="1449" y="931">
+                178
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="1460" y="663">
+                A179
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="1449" y="651">
+                179
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <rect x="1173" y="650" width="17" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="1181.5" y="661.5">
+                U9
+            </text>
+        </g>
+        <rect x="1210" y="300" width="380" height="280" fill="#ffffff" stroke="black" stroke-width="2" stroke-dasharray="NaN" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1358" y="437">
+                LoRa RADIO
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1358" y="451">
+                (Telemetry)
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1295" y="327">
+                VCC
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1295" y="557">
+                GND
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1445" y="327">
+                TX
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1475" y="557">
+                RX
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="1235" y="467">
+                ANTENNA
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="1320" y="303">
+                A174
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="1309" y="291">
+                174
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="1320" y="583">
+                A175
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="1309" y="571">
+                175
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="1220" y="463">
+                A177
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="1209" y="451">
+                177
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="1490" y="583">
+                A178
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="1479" y="571">
+                178
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="1470" y="303">
+                A179
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="1459" y="291">
+                179
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <rect x="1176" y="290" width="24" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="1188" y="301.5">
+                U20
+            </text>
+        </g>
+        <rect x="2470" y="1100" width="380" height="280" fill="#ffffff" stroke="black" stroke-width="2" stroke-dasharray="NaN" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2618" y="1237">
+                GPS
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2618" y="1251">
+                (LOCATION)
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2555" y="1127">
+                VCC
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2555" y="1357">
+                GND
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2705" y="1127">
+                TX
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2735" y="1357">
+                RX
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2580" y="1103">
+                A174
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2569" y="1091">
+                174
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2580" y="1383">
+                A175
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2569" y="1371">
+                175
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2750" y="1383">
+                A178
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2739" y="1371">
+                178
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2730" y="1103">
+                A179
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2719" y="1091">
+                179
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <rect x="2446" y="1090" width="24" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="2458" y="1101.5">
+                U21
+            </text>
+        </g>
+        <rect x="3570" y="2570" width="380" height="280" fill="#ffffff" stroke="black" stroke-width="2" stroke-dasharray="NaN" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3712" y="2707">
+                DRV8833 
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3712" y="2721">
+                (motor driver)
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3628" y="2597">
+                VCC
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3585" y="2757">
+                AOUT1
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3885" y="2717">
+                AOUT2
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3625" y="2827">
+                GND
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3725" y="2827">
+                BIN1
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3712" y="2597">
+                BIN2
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3795" y="2827">
+                AIN2
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3875" y="2587">
+                BOUT1
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3895" y="2827">
+                BOUT2
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3792" y="2590">
+                AIN1    
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3605" y="2667">
+                VN
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="3650" y="2573">
+                A174
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="3639" y="2561">
+                174
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="3650" y="2853">
+                A175
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="3639" y="2841">
+                175
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="3960" y="2713">
+                A176
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="3949" y="2701">
+                176
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="3580" y="2753">
+                A177
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="3569" y="2741">
+                177
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="3740" y="2853">
+                A178
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="3729" y="2841">
+                178
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="3740" y="2573">
+                A179
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="3729" y="2561">
+                179
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="3820" y="2853">
+                A180
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="3809" y="2841">
+                180
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="3820" y="2573">
+                A181
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="3809" y="2561">
+                181
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="3900" y="2573">
+                A182
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="3889" y="2561">
+                182
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="3910" y="2853">
+                A183
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="3899" y="2841">
+                183
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="3580" y="2663">
+                A184
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="3569" y="2651">
+                184
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <rect x="3536" y="2560" width="24" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="3548" y="2571.5">
+                U14
+            </text>
+        </g>
+        <rect x="4490" y="2420" width="240" height="210" fill="#ffffff" stroke="black" stroke-width="2" stroke-dasharray="NaN" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="4575" y="2517">
+                MOTOR2
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="4575" y="2531">
+                PARACHUTE
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="4605" y="2447">
+                M+
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="4605" y="2617">
+                M-
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="4620" y="2633">
+                A185
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="4609" y="2621">
+                185
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="4620" y="2423">
+                A186
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="4609" y="2411">
+                186
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <rect x="4467" y="2410" width="23" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="4478.5" y="2421.5">
+                U11
+            </text>
+        </g>
+        <rect x="4490" y="2780" width="240" height="210" fill="#ffffff" stroke="black" stroke-width="2" stroke-dasharray="NaN" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="4575" y="2877">
+                MOTOR3
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="4575" y="2891">
+                PARACHUTE
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="4605" y="2807">
+                M+
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="4605" y="2977">
+                M-
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="4620" y="2993">
+                A185
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="4609" y="2981">
+                185
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="4620" y="2783">
+                A186
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="4609" y="2771">
+                186
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <rect x="4466" y="2770" width="24" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="4478" y="2781.5">
+                U22
+            </text>
+        </g>
+        <rect x="4490" y="3120" width="240" height="210" fill="#ffffff" stroke="black" stroke-width="2" stroke-dasharray="NaN" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="4575" y="3217">
+                MOTOR4
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="4575" y="3231">
+                PARACHUTE
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="4605" y="3147">
+                M+
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="4605" y="3317">
+                M-
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="4620" y="3333">
+                A185
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="4609" y="3321">
+                185
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="4620" y="3123">
+                A186
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="4609" y="3111">
+                186
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <rect x="4466" y="3110" width="24" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="4478" y="3121.5">
+                U23
+            </text>
+        </g>
+        <path d="M 3600 2360 L 3560 2360 L 3560 1710 L 3150 1710 L 3150 1760" fill="none" stroke="#bf0000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="3330" y="3020" width="10" height="10" fill="#ffffff" stroke="black" stroke-width="2" stroke-dasharray="NaN" pointer-events="none"/>
+        <rect x="2697" y="2647" width="680" height="420" fill="#ffffff" stroke="black" stroke-width="2" stroke-dasharray="NaN" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3005" y="2867">
+                REES52 BEC  
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3005" y="2881">
+                (MAKES 5V)
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3045" y="2670">
+                IN+
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3025" y="3047">
+                IN-
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2725" y="2867">
+                OUT+
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="3335" y="2867">
+                OUT-
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="3060" y="2653">
+                A109
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="3049" y="2641">
+                109
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="3060" y="3073">
+                A110
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="3049" y="3061">
+                110
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2710" y="2863">
+                A112
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2699" y="2851">
+                112
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="3390" y="2863">
+                A111
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="3379" y="2851">
+                111
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <rect x="2673" y="2640" width="17" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="2681.5" y="2651.5">
+                U3
+            </text>
+        </g>
+        <path d="M 3570 2362 L 3570 2370 L 3050 2370 L 3050 2650" fill="none" stroke="#bf0000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="3570" cy="2360" rx="2" ry="2" fill="#bf0000" stroke="#bf0000" stroke-width="2" pointer-events="none"/>
+        <path d="M 3390 2372 L 3390 2490 L 3500 2490 L 3500 2660 L 3570 2660" fill="none" stroke="#bf0000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="3390" cy="2370" rx="2" ry="2" fill="#bf0000" stroke="#bf0000" stroke-width="2" pointer-events="none"/>
+        <rect x="2540" y="2090" width="200" height="420" fill="#ffffff" stroke="black" stroke-width="2" stroke-dasharray="NaN" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="2595" y="2300">
+                GROUND HUB
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2550" y="2113">
+                A2
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2539" y="2101">
+                2
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2550" y="2133">
+                A3
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2539" y="2121">
+                3
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2550" y="2153">
+                A4
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2539" y="2141">
+                4
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2550" y="2173">
+                A5
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2539" y="2161">
+                5
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2550" y="2193">
+                A6
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2539" y="2181">
+                6
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2550" y="2213">
+                A7
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2539" y="2201">
+                7
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2550" y="2233">
+                A8
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2539" y="2221">
+                8
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2550" y="2263">
+                A9
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2539" y="2251">
+                9
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2550" y="2283">
+                A10
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2539" y="2271">
+                10
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2550" y="2253">
+                A11
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2539" y="2241">
+                11
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2550" y="2303">
+                A12
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2539" y="2291">
+                12
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2550" y="2333">
+                A13
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2539" y="2321">
+                13
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2550" y="2353">
+                A14
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2539" y="2341">
+                14
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2550" y="2373">
+                A15
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2539" y="2361">
+                15
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2550" y="2393">
+                A16
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2539" y="2381">
+                16
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2550" y="2413">
+                A19
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2539" y="2401">
+                19
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2550" y="2433">
+                A20
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2539" y="2421">
+                20
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2550" y="2453">
+                A21
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2539" y="2441">
+                21
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2550" y="2473">
+                A22
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2539" y="2461">
+                22
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2550" y="2493">
+                A23
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2539" y="2481">
+                23
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2550" y="2513">
+                A24
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2539" y="2501">
+                24
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2550" y="2093">
+                A25
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2539" y="2081">
+                25
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2580" y="2513">
+                A26
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2569" y="2501">
+                26
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2570" y="2093">
+                A27
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2559" y="2081">
+                27
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="2750" y="2303">
+                A1
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="2739" y="2291">
+                1
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <rect x="2506" y="2080" width="24" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="2518" y="2091.5">
+                U24
+            </text>
+        </g>
+        <path d="M 2160 1610 L 2160 1570 L 2730 1570 L 2730 1970 L 2800 1970" fill="none" stroke="#bf0000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 3860 2360 L 3920 2360 L 3920 2230 L 2800 2230 L 2800 2300 L 2740 2300" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 3480 1970 L 3480 1980 L 3530 1980 L 3530 2290 L 2730 2290 L 2730 2090 L 2560 2090" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 2700 2860 L 2090 2860 L 2090 3230" fill="none" stroke="#ff0000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 2390 2860 L 2470 2860 L 2470 3230 L 2540 3230" fill="none" stroke="#ff0000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 2470 2862 L 2470 3100 L 3000 3100 L 3000 3250" fill="none" stroke="#ff0000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="2470" cy="2860" rx="2" ry="2" fill="#ff0000" stroke="#ff0000" stroke-width="2" pointer-events="none"/>
+        <path d="M 2942 3100 L 3470 3100 L 3470 3250" fill="none" stroke="#ff0000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="2940" cy="3100" rx="2" ry="2" fill="#ff0000" stroke="#ff0000" stroke-width="2" pointer-events="none"/>
+        <path d="M 3380 2860 L 3380 2810 L 3430 2810 L 3430 2590 L 2570 2590 L 2570 2510" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 2310 1610 L 2310 1440 L 1570 1440 L 1570 1460 L 1370 1460" fill="none" stroke="#bf0000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 2010 1440 L 2010 2640 L 1410 2640 L 1410 2650" fill="none" stroke="#bf0000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 2008 2230 L 1410 2230 L 1410 2250" fill="none" stroke="#bf0000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="2010" cy="2230" rx="2" ry="2" fill="#bf0000" stroke="#bf0000" stroke-width="2" pointer-events="none"/>
+        <path d="M 2008 1840 L 1400 1840 L 1400 1850" fill="none" stroke="#7f0000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="2010" cy="1840" rx="2" ry="2" fill="#7f0000" stroke="#7f0000" stroke-width="2" pointer-events="none"/>
+        <path d="M 2010 1478 L 2010 240 L 1310 240 L 1310 300" fill="none" stroke="#bf0000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="2010" cy="1480" rx="2" ry="2" fill="#bf0000" stroke="#bf0000" stroke-width="2" pointer-events="none"/>
+        <path d="M 2008 620 L 1480 620 L 1480 660 L 1300 660" fill="none" stroke="#bf0000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="2010" cy="620" rx="2" ry="2" fill="#bf0000" stroke="#bf0000" stroke-width="2" pointer-events="none"/>
+        <path d="M 2008 1010 L 1380 1010 L 1380 1080" fill="none" stroke="#bf0000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="2010" cy="1010" rx="2" ry="2" fill="#bf0000" stroke="#bf0000" stroke-width="2" pointer-events="none"/>
+        <path d="M 2720 1568 L 2720 1500 L 2370 1500 L 2370 1010 L 2570 1010 L 2570 1100" fill="none" stroke="#bf0000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="2720" cy="1570" rx="2" ry="2" fill="#bf0000" stroke="#bf0000" stroke-width="2" pointer-events="none"/>
+        <path d="M 2562 1010 L 3050 1010 L 3050 1090" fill="none" stroke="#bf0000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="2560" cy="1010" rx="2" ry="2" fill="#bf0000" stroke="#bf0000" stroke-width="2" pointer-events="none"/>
+        <path d="M 2722 1570 L 3980 1570 L 3980 2520 L 3640 2520 L 3640 2570" fill="none" stroke="#bf0000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="2720" cy="1570" rx="2" ry="2" fill="#bf0000" stroke="#bf0000" stroke-width="2" pointer-events="none"/>
+        <path d="M 1370 1740 L 1370 1810 L 1970 1810 L 1970 2150 L 2540 2150 L 2540 2110" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1400 2130 L 1400 2200 L 2360 2200 L 2360 2130 L 2540 2130" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1410 2530 L 1410 2610 L 1970 2610 L 1970 2220 L 2440 2220 L 2440 2190 L 2540 2190 L 2540 2150" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1410 2930 L 1410 3010 L 1970 3010 L 1970 2250 L 2490 2250 L 2490 2190 L 2540 2190" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1380 1360 L 1380 1430 L 1970 1430 L 1970 2290 L 2540 2290 L 2540 2250" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1300 940 L 1300 1050 L 1970 1050 L 1970 2300 L 2540 2300 L 2540 2260" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1310 580 L 1310 650 L 1970 650 L 1970 2300 L 2540 2300" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 2570 1380 L 2570 1410 L 2600 1410 L 2600 2020 L 2360 2020 L 2360 2330 L 2540 2330" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 3050 1370 L 3050 1680 L 2630 1680 L 2630 2050 L 2340 2050 L 2340 2350 L 2540 2350" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 3640 2850 L 3640 2880 L 3460 2880 L 3460 2570 L 2470 2570 L 2470 2490 L 2540 2490" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 2090 3510 L 2090 3570 L 1840 3570 L 1840 3060 L 2060 3060 L 2060 2470 L 2540 2470" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 2540 3510 L 2540 3570 L 2090 3570 L 2092 3570" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="2090" cy="3570" rx="2" ry="2" fill="#000000" stroke="#000000" stroke-width="2" pointer-events="none"/>
+        <path d="M 3000 3530 L 3000 3570 L 2520 3570 L 2522 3570" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="2520" cy="3570" rx="2" ry="2" fill="#000000" stroke="#000000" stroke-width="2" pointer-events="none"/>
+        <path d="M 2962 3570 L 3470 3570 L 3470 3530" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="2960" cy="3570" rx="2" ry="2" fill="#000000" stroke="#000000" stroke-width="2" pointer-events="none"/>
+        <path d="M 2380 1610 L 2380 1540 L 1910 1540 L 1910 1620 L 1550 1620" fill="none" stroke="#005fbf" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1910 1548 L 1910 1240 L 1560 1240" fill="none" stroke="#005fbf" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="1910" cy="1550" rx="2" ry="2" fill="#005fbf" stroke="#005fbf" stroke-width="2" pointer-events="none"/>
+        <path d="M 1910 1622 L 1910 2010 L 1580 2010" fill="none" stroke="#005fbf" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="1910" cy="1620" rx="2" ry="2" fill="#005fbf" stroke="#005fbf" stroke-width="2" pointer-events="none"/>
+        <path d="M 1900 2012 L 1900 2470 L 1590 2470 L 1590 2410" fill="none" stroke="#005fbf" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="1900" cy="2010" rx="2" ry="2" fill="#005fbf" stroke="#005fbf" stroke-width="2" pointer-events="none"/>
+        <path d="M 1902 2430 L 1910 2430 L 1910 2810 L 1590 2810" fill="none" stroke="#005fbf" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="1900" cy="2430" rx="2" ry="2" fill="#005fbf" stroke="#005fbf" stroke-width="2" pointer-events="none"/>
+        <path d="M 2440 1610 L 2440 1420 L 1110 1420 L 1110 1620 L 1170 1620" fill="none" stroke="#00bf00" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1168 1620 L 1110 1620 L 1110 2410 L 1210 2410" fill="none" stroke="#00bf00" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="1170" cy="1620" rx="2" ry="2" fill="#00bf00" stroke="#00bf00" stroke-width="2" pointer-events="none"/>
+        <path d="M 1112 2030 L 1200 2030 L 1200 2010" fill="none" stroke="#00bf00" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="1110" cy="2030" rx="2" ry="2" fill="#00bf00" stroke="#00bf00" stroke-width="2" pointer-events="none"/>
+        <path d="M 1188 2410 L 1110 2410 L 1110 2810 L 1210 2810" fill="none" stroke="#00bf00" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="1190" cy="2410" rx="2" ry="2" fill="#00bf00" stroke="#00bf00" stroke-width="2" pointer-events="none"/>
+        <path d="M 1188 1420 L 1110 1420 L 1110 1240 L 1180 1240" fill="none" stroke="#00bf00" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="1190" cy="1420" rx="2" ry="2" fill="#00bf00" stroke="#00bf00" stroke-width="2" pointer-events="none"/>
+        <path d="M 2510 1650 L 2550 1650 L 2550 1410 L 2110 1410 L 2110 1040 L 1150 1040 L 1150 820 L 1200 820" fill="none" stroke="#7f00ff" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 2510 1700 L 2550 1700 L 2550 1422" fill="none" stroke="#7f00ff" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="2550" cy="1420" rx="2" ry="2" fill="#7f00ff" stroke="#7f00ff" stroke-width="2" pointer-events="none"/>
+        <path d="M 2510 1760 L 2550 1760 L 2550 1632" fill="none" stroke="#7f00ff" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="2550" cy="1630" rx="2" ry="2" fill="#7f00ff" stroke="#7f00ff" stroke-width="2" pointer-events="none"/>
+        <path d="M 2510 1810 L 2550 1810 L 2550 1732" fill="none" stroke="#7f00ff" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="2550" cy="1730" rx="2" ry="2" fill="#7f00ff" stroke="#7f00ff" stroke-width="2" pointer-events="none"/>
+        <path d="M 2102 1040 L 2110 1040 L 2110 820 L 1580 820" fill="none" stroke="#7f00ff" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="2100" cy="1040" rx="2" ry="2" fill="#7f00ff" stroke="#7f00ff" stroke-width="2" pointer-events="none"/>
+        <path d="M 2108 970 L 1450 970 L 1450 940" fill="none" stroke="#7f00ff" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="2110" cy="970" rx="2" ry="2" fill="#7f00ff" stroke="#7f00ff" stroke-width="2" pointer-events="none"/>
+        <path d="M 2108 830 L 1640 830 L 1640 660 L 1450 660" fill="none" stroke="#7f00ff" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="2110" cy="830" rx="2" ry="2" fill="#7f00ff" stroke="#7f00ff" stroke-width="2" pointer-events="none"/>
+        <path d="M 2510 1850 L 2690 1850 L 2690 1420 L 2740 1420 L 2740 1380" fill="none" stroke="#7f3f00" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 2440 1920 L 2440 1980 L 2670 1980 L 2670 1460 L 2870 1460 L 2870 1070 L 2720 1070 L 2720 1100" fill="none" stroke="#7f3f00" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 2360 1920 L 2360 2000 L 2710 2000 L 2710 1630 L 2930 1630 L 2930 1450 L 3410 1450 L 3410 1250 L 3330 1250" fill="none" stroke="#999999" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 2280 1920 L 2280 1940 L 2750 1940 L 2750 1500 L 2920 1500 L 2920 1250 L 2950 1250" fill="none" stroke="#999999" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 2210 1920 L 2210 1950 L 2770 1950 L 2770 1430 L 2910 1430 L 2910 1060 L 3200 1060 L 3200 1090" fill="none" stroke="#999999" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 3150 1370 L 3150 1520 L 4220 1520 L 4220 3050 L 3750 3050 L 3750 3610 L 1880 3610 L 1880 3390 L 1890 3390" fill="none" stroke="#999999" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 2330 3608 L 2330 3390 L 2340 3390" fill="none" stroke="#999999" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="2330" cy="3610" rx="2" ry="2" fill="#999999" stroke="#999999" stroke-width="2" pointer-events="none"/>
+        <path d="M 2750 3608 L 2750 3410 L 2800 3410" fill="none" stroke="#999999" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="2750" cy="3610" rx="2" ry="2" fill="#999999" stroke="#999999" stroke-width="2" pointer-events="none"/>
+        <path d="M 3240 3608 L 3240 3410 L 3270 3410" fill="none" stroke="#999999" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="3240" cy="3610" rx="2" ry="2" fill="#999999" stroke="#999999" stroke-width="2" pointer-events="none"/>
+        <path d="M 3240 1370 L 3240 1490 L 4320 1490 L 4320 3190 L 3850 3190 L 3850 3690 L 2290 3690 L 2290 3390 L 2270 3390" fill="none" stroke="#999999" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 2730 3688 L 2730 3390 L 2720 3390" fill="none" stroke="#999999" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="2730" cy="3690" rx="2" ry="2" fill="#999999" stroke="#999999" stroke-width="2" pointer-events="none"/>
+        <path d="M 3210 3688 L 3210 3410 L 3180 3410" fill="none" stroke="#999999" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="3210" cy="3690" rx="2" ry="2" fill="#999999" stroke="#999999" stroke-width="2" pointer-events="none"/>
+        <path d="M 3710 3688 L 3710 3410 L 3650 3410" fill="none" stroke="#999999" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="3710" cy="3690" rx="2" ry="2" fill="#999999" stroke="#999999" stroke-width="2" pointer-events="none"/>
+        <path d="M 2140 1920 L 2140 1960 L 2040 1960 L 2040 910 L 4060 910 L 4060 2480 L 3810 2480 L 3810 2570" fill="none" stroke="#ffaaaa" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 2090 1860 L 2050 1860 L 2050 870 L 4100 870 L 4100 3030 L 4260 3030 L 4260 3250" fill="none" stroke="#ffaaaa" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 2090 1810 L 2060 1810 L 2060 840 L 4120 840 L 4120 3070 L 4180 3070 L 4180 3250" fill="none" stroke="#ffaaaa" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 2090 1750 L 2070 1750 L 2070 810 L 4150 810 L 4150 2540 L 3730 2540 L 3730 2570" fill="none" stroke="#ffaaaa" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 3570 2750 L 3550 2750 L 3550 2920 L 4400 2920 L 4400 2020 L 4600 2020 L 4600 2070" fill="none" stroke="#bf0000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 3950 2710 L 4430 2710 L 4430 2320 L 4600 2320 L 4600 2280" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 3890 2570 L 3890 2550 L 4460 2550 L 4460 2390 L 4610 2390 L 4610 2420" fill="none" stroke="#bf0000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 3900 2850 L 3900 2860 L 4450 2860 L 4450 2660 L 4610 2660 L 4610 2630" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 1210 460 L 1210 450 L 930 450 L 930 480" fill="none" stroke="#007f3f" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 2090 1690 L 1790 1690 L 1790 600 L 1480 600 L 1480 580" fill="none" stroke="#7f7f00" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 2090 1650 L 1740 1650 L 1740 270 L 1450 270 L 1450 300 L 1460 300" fill="none" stroke="#7f7f00" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <rect x="4020" y="3250" width="380" height="280" fill="#ffffff" stroke="black" stroke-width="2" stroke-dasharray="NaN" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="4162" y="3387">
+                DRV8833 
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="4162" y="3401">
+                (motor driver)
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="4078" y="3277">
+                VCC
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="4035" y="3437">
+                AOUT1
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="4335" y="3397">
+                AOUT2
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="4075" y="3507">
+                GND
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="4175" y="3507">
+                BIN1
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="4162" y="3277">
+                BIN2
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="4245" y="3507">
+                AIN2
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="4325" y="3267">
+                BOUT1
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="4345" y="3507">
+                BOUT2
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="4242" y="3270">
+                AIN1    
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="14px">
+            <text x="4055" y="3347">
+                VN
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="14px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="4100" y="3253">
+                A174
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="4089" y="3241">
+                174
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="4100" y="3533">
+                A175
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="4089" y="3521">
+                175
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="4410" y="3393">
+                A176
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="4399" y="3381">
+                176
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="4030" y="3433">
+                A177
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="4019" y="3421">
+                177
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="4190" y="3533">
+                A178
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="4179" y="3521">
+                178
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="4190" y="3253">
+                A179
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="4179" y="3241">
+                179
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="4270" y="3533">
+                A180
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="4259" y="3521">
+                180
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="4270" y="3253">
+                A181
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="4259" y="3241">
+                181
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="4350" y="3253">
+                A182
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="4339" y="3241">
+                182
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="4360" y="3533">
+                A183
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="4349" y="3521">
+                183
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" font-size="10px">
+            <text x="4030" y="3343">
+                A184
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <g fill="#000000" font-family="Arial" text-anchor="middle" font-size="10px">
+            <text x="4019" y="3331">
+                184
+            </text>
+        </g>
+        <g fill="#000000" font-family="Arial" font-size="10px"/>
+        <rect x="3986" y="3240" width="24" height="13" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/>
+        <g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="3998" y="3251.5">
+                U25
+            </text>
+        </g>
+        <path d="M 4340 3250 L 4340 3030 L 4610 3030 L 4610 2990" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 4350 3530 L 4350 3560 L 4420 3560 L 4420 2740 L 4610 2740 L 4610 2780" fill="none" stroke="#ff0000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 4400 3390 L 4460 3390 L 4460 3080 L 4610 3080 L 4610 3120" fill="none" stroke="#ff0000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 4020 3430 L 3980 3430 L 3980 3620 L 4610 3620 L 4610 3330" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 4090 3530 L 4090 3580 L 3940 3580 L 3940 3050 L 3460 3050 L 3460 2882" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="3460" cy="2880" rx="2" ry="2" fill="#000000" stroke="#000000" stroke-width="2" pointer-events="none"/>
+        <path d="M 4020 3340 L 4020 3120 L 3500 3120 L 3500 2662" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="none"/>
+        <ellipse cx="3500" cy="2660" rx="2" ry="2" fill="#000000" stroke="#000000" stroke-width="2" pointer-events="none"/>
+    </g>
+</svg>
